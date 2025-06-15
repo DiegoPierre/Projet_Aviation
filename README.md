@@ -80,3 +80,18 @@ df_clean['Country'].value_counts().head(15).plot(kind='barh')
 ```
 
 ## Identifier les périodes de l'année présentant la plus forte occurrence d'accidents aériens.
+# Extraire le mois
+df_clean['Month'] = df_clean['Event.Date'].dt.month
+
+# Visualisation
+plt.figure(figsize=(5,3))
+df_clean['Month'].value_counts().sort_index().plot(kind='bar', color='skyblue')
+plt.title("Nombre d'accidents par mois")
+plt.xticks(range(12), ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc'])
+plt.show()
+<div style="text-align: center;">
+    <img src="Screenshot 2025-06-14 194724.png" width="400">
+    <p style="font-style: italic; color: #7f8c8d;">
+        Source : Données NTSB 1962-2023
+    </p>
+</div>
