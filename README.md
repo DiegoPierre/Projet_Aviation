@@ -130,7 +130,7 @@ plt.show()
     <img src="data/Screenshot 2025-06-14 195216.png" width="400">
     <p style="font-style: italic; color: #7f8c8d;">
     </p>
-##3 Recommandations Stratégiques
+## 3 Recommandations Stratégiques
 Limiter l’achat d’avions de plus de 20 ans
 Les données montrent une corrélation forte entre l’ancienneté des appareils et les accidents graves. Il est conseillé d’acheter des avions récents ou de faire une évaluation approfondie de l'historique d'entretien.
  
