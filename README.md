@@ -92,6 +92,41 @@ plt.show()
 <div style="text-align: center;">
     <img src="data/Screenshot 2025-06-14 194724.png" width="400">
     <p style="font-style: italic; color: #7f8c8d;">
-        Source : Données NTSB 1962-2023
     </p>
 </div>
+ ## Taux d'accidents par million de vols
+ taux_mortalite = (df_clean['Total.Fatal.Injuries'] > 0).mean() * 100
+print(f" {taux_mortalite:.1f}% des accidents ont causé au moins un décès")
+
+# Visualisation
+plt.figure(figsize=(6,6))
+plt.pie([taux_mortalite, 100-taux_mortalite], 
+        labels=['Accidents mortels', 'Autres'], 
+        colors=['#e74c3c', '#3498db'], 
+        autopct='%1.1f%%')
+plt.title("Proportion d'accidents mortels")
+plt.show()
+<div style="text-align: center;">
+    <img src="data/Screenshot 2025-06-14 194900.png" width="400">
+    <p style="font-style: italic; color: #7f8c8d;">
+    </p>
+</div>
+plt.figure(figsize=(7,4))
+sns.barplot(
+    x=top_pays.values,
+    y=top_pays.index,
+    hue=top_pays.index,  # Ajout du paramètre hue
+    palette='Reds_r',
+    legend=False,        # Désactivation de la légende superflue
+    dodge=False          # Empêche le décalage des barres
+)
+plt.title("Pays avec le plus d'accidents aériens (1962-2023)", pad=20)
+plt.xlabel("Nombre d'accidents", labelpad=10)
+plt.ylabel("")  # Supprime le label Y inutile
+sns.despine(left=True)  # Supprime le cadre gauche
+plt.tight_layout()
+plt.show()
+<div style="text-align: center;">
+    <img src="data/Screenshot 2025-06-14 195216.png" width="400">
+    <p style="font-style: italic; color: #7f8c8d;">
+    </p>
