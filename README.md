@@ -130,3 +130,16 @@ plt.show()
     <img src="data/Screenshot 2025-06-14 195216.png" width="400">
     <p style="font-style: italic; color: #7f8c8d;">
     </p>
+##3 Recommandations Stratégiques
+**Limiter l’achat d’avions de plus de 20 ans**
+Les données montrent une corrélation forte entre l’ancienneté des appareils et les accidents graves. Il est conseillé d’acheter des avions récents ou de faire une évaluation approfondie de l'historique d'entretien.
+**Prioriser l’inspection des phases critiques de vol**
+La majorité des accidents surviennent pendant les phases de décollage et d’atterrissage. Des contrôles renforcés sur les composants impliqués dans ces phases (freins, trains d’atterrissage, moteurs) sont essentiels.
+**Éviter certains modèles et compagnies à antécédents élevés**
+Les compagnies et les modèles identifiés avec un fort historique d’accidents doivent être exclus des options d’achat ou faire l’objet d’un audit de sécurité renforcé avant acquisition.
+##Conclusion
+L’analyse des données NTSB révèle que l’âge de l’appareil, la phase de vol, et certaines compagnies aériennes ou modèles spécifiques sont des facteurs de risque majeurs.
+Power BI a permis de visualiser ces tendances de manière claire et interactive, facilitant ainsi la prise de décision.
+Ces recommandations orienteront l’entreprise vers des achats d’avions plus sûrs, tout en anticipant les zones de risque critiques, afin d’optimiser la sécurité dès le démarrage de l’activité.
+
+Email:beaugert@yahoo.fr
