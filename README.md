@@ -130,6 +130,7 @@ plt.show()
     <img src="data/Screenshot 2025-06-14 195216.png" width="400">
     <p style="font-style: italic; color: #7f8c8d;">
     </p>
+ 
 ## Recommandations Stratégiques
  
 Limiter l’achat d’avions de plus de 20 ans
